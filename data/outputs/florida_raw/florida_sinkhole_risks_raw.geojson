@@ -1,0 +1,165 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.46796655922643,
+          30.96342022562449
+        ]
+      },
+      "properties": {
+        "id": "GRAV-1",
+        "risk_score": 80.0,
+        "risk_tier": "severe",
+        "data_source": "raw_gravity"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.42638274632189,
+          30.58253544360231
+        ]
+      },
+      "properties": {
+        "id": "GRAV-2",
+        "risk_score": 80.0,
+        "risk_tier": "severe",
+        "data_source": "raw_gravity"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.57425641025641,
+          31.418525641025635
+        ]
+      },
+      "properties": {
+        "id": "GRAV-3",
+        "risk_score": 80.0,
+        "risk_tier": "severe",
+        "data_source": "raw_gravity"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.68917399741268,
+          28.667410090556267
+        ]
+      },
+      "properties": {
+        "id": "GRAV-8",
+        "risk_score": 80.0,
+        "risk_tier": "severe",
+        "data_source": "raw_gravity"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.12825,
+          26.106249999999992
+        ]
+      },
+      "properties": {
+        "id": "GRAV-17",
+        "risk_score": 80.0,
+        "risk_tier": "severe",
+        "data_source": "raw_gravity"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.804125,
+          27.17205555555555
+        ]
+      },
+      "properties": {
+        "id": "GRAV-15",
+        "risk_score": 80.0,
+        "risk_tier": "severe",
+        "data_source": "raw_gravity"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.43703333333333,
+          25.452933333333327
+        ]
+      },
+      "properties": {
+        "id": "GRAV-18",
+        "risk_score": 65.0,
+        "risk_tier": "elevated",
+        "data_source": "raw_gravity"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.2575,
+          31.44464285714285
+        ]
+      },
+      "properties": {
+        "id": "GRAV-4",
+        "risk_score": 53.5,
+        "risk_tier": "moderate",
+        "data_source": "raw_gravity"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.70921428571428,
+          26.54369047619047
+        ]
+      },
+      "properties": {
+        "id": "GRAV-16",
+        "risk_score": 19.42280101776123,
+        "risk_tier": "minimal",
+        "data_source": "raw_gravity"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.29783333333333,
+          29.70716666666666
+        ]
+      },
+      "properties": {
+        "id": "GRAV-10",
+        "risk_score": 9.005349159240723,
+        "risk_tier": "minimal",
+        "data_source": "raw_gravity"
+      }
+    }
+  ]
+}
