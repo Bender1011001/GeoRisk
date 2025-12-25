@@ -184,7 +184,12 @@ python run_pipeline.py --region florida --mode batch
 
 ## 📜 License
 
-MIT License - Commercial use permitted.
+**Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)**
+
+This project is licensed for non-commercial use only. Commercial use of this 
+code, derived models, or generated risk data requires a separate commercial license.
+
+For commercial licensing inquiries, contact the authors.
 
 ---
 
