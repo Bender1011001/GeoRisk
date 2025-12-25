@@ -1,0 +1,91 @@
+# GeoRisk Configuration
+# =======================
+
+# Geological Region
+# Options: florida_karst, texas_salt, dead_sea, konya_basin, general
+region: florida_karst
+
+# Gravity Inversion Settings
+gravity_inversion:
+  epochs: 500
+  depth_estimate: 50.0        # meters - shallower for sinkholes
+  thickness_estimate: 30.0    # meters
+  max_density: 500.0          # kg/m³
+  void_bias_weight: 0.5       # Penalty for positive mass
+  learning_rate: 0.001
+
+# InSAR Processing
+insar:
+  # Velocity thresholds (mm/yr) - REGION SPECIFIC
+  velocity_thresholds:
+    florida_karst:
+      background_noise: -2.0
+      warning: -3.0
+      critical: -6.0
+      imminent: -10.0
+    texas_salt:
+      background_noise: -5.0
+      warning: -10.0
+      critical: -20.0
+      imminent: -30.0
+    general:
+      background_noise: -2.0
+      warning: -5.0
+      critical: -10.0
+      imminent: -20.0
+  
+  # Acceleration detection
+  acceleration_threshold_pct: 50  # 50% increase = acute risk
+
+# Clustering (DBSCAN)
+clustering:
+  min_cluster_size: 5
+  eps_meters: 30.0
+  velocity_threshold: -3.0
+  velocity_coherence: 2.0
+
+# Risk Scoring Weights (must sum to 1.0)
+risk_weights:
+  florida_karst:
+    velocity: 0.35
+    density: 0.25
+    geological: 0.20
+    proximity: 0.15
+    spectral: 0.05
+  texas_salt:
+    velocity: 0.30
+    horizontal_strain: 0.25
+    density: 0.20
+    geological: 0.15
+    proximity: 0.10
+  general:
+    velocity: 0.30
+    density: 0.25
+    geological: 0.25
+    proximity: 0.15
+    spectral: 0.05
+
+# Reporting
+reporting:
+  include_coordinates: true
+  include_raw_metrics: true
+  output_format: json  # json, csv, geojson
+
+# Data Paths
+paths:
+  input_dir: georisk/data/inputs
+  output_dir: georisk/data/outputs
+  model_dir: georisk/models/pretrained
+
+# API Settings (for production deployment)
+api:
+  host: 0.0.0.0
+  port: 8000
+  enable_cors: true
+  rate_limit: 100  # requests per minute
+
+# Logging
+logging:
+  level: INFO
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  file: georisk/logs/pipeline.log
