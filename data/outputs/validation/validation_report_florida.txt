@@ -1,0 +1,69 @@
+======================================================================
+GEORISK SINKHOLE DETECTION VALIDATION REPORT
+======================================================================
+Generated: 2025-12-25T16:10:53.648229
+Region: Florida
+
+======================================================================
+SUMMARY METRICS
+======================================================================
+Known Sinkholes (Ground Truth):  20
+Total Predictions:               3
+
+True Positives (Matched):        0
+False Positives (Spurious):      3
+False Negatives (Missed):        20
+
+PRECISION:  0.0%  (of our predictions, how many are real)
+RECALL:     0.0%  (of real sinkholes, how many did we find)
+F1 SCORE:   0.000  (harmonic mean)
+
+Mean Distance to Match:   inf km
+Median Distance to Match: inf km
+
+======================================================================
+INTERPRETATION
+======================================================================
+[XX] LOW RECALL: Missing majority of known sinkholes
+[!!] LOW PRECISION: High false alarm rate (expected for regional detection)
+
+======================================================================
+MATCHED SINKHOLES (TRUE POSITIVES)
+======================================================================
+
+======================================================================
+MISSED SINKHOLES (FALSE NEGATIVES)
+======================================================================
+  [-] Winter Park Sinkhole (1981) - Nearest prediction: 45.1 km away
+  [-] Seffner Sinkhole (Jeff Bush) (2013) - Nearest prediction: 92.1 km away
+  [-] Land O' Lakes Sinkhole (2017) - Nearest prediction: 107.0 km away
+  [-] Pasco County Sinkhole 2017 (2017) - Nearest prediction: 108.3 km away
+  [-] Plant City Sinkhole (2010) - Nearest prediction: 76.5 km away
+  [-] Ocala Sinkhole (2012) - Nearest prediction: 133.9 km away
+  [-] Gainesville Sinkhole (2016) - Nearest prediction: 187.1 km away
+  [-] Tampa Sinkhole 2011 (2011) - Nearest prediction: 110.4 km away
+  [-] Hernando County Sinkhole (2018) - Nearest prediction: 114.8 km away
+  [-] Brooksville Sinkhole (2015) - Nearest prediction: 107.8 km away
+  [-] Marion County 1 (2014) - Nearest prediction: 131.3 km away
+  [-] Citrus County 1 (2016) - Nearest prediction: 123.1 km away
+  [-] Lake County 1 (2015) - Nearest prediction: 71.0 km away
+  [-] Sumter County 1 (2017) - Nearest prediction: 87.7 km away
+  [-] Polk County 1 (2013) - Nearest prediction: 59.8 km away
+  [-] Hillsborough County 1 (2012) - Nearest prediction: 99.7 km away
+  [-] Pinellas County 1 (2014) - Nearest prediction: 137.0 km away
+  [-] Alachua County 1 (2018) - Nearest prediction: 190.7 km away
+  [-] Columbia County 1 (2016) - Nearest prediction: 245.2 km away
+  [-] Levy County 1 (2015) - Nearest prediction: 183.4 km away
+
+======================================================================
+VALIDATION METHODOLOGY
+======================================================================
+1. Ground Truth: Official state sinkhole databases (FGS, etc.)
+2. Matching: Spatial proximity within 5km radius
+3. Metrics: Standard information retrieval metrics
+4. Note: Gravity data has ~1km resolution, limiting spatial precision
+
+This validation uses DOCUMENTED, VERIFIED sinkholes only.
+Actual sinkhole count is likely higher (unreported events).
+
+======================================================================

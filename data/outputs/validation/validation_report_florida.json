@@ -1,0 +1,155 @@
+{
+  "total_known_sinkholes": 20,
+  "total_predictions": 3,
+  "true_positives": 0,
+  "false_positives": 3,
+  "false_negatives": 20,
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1_score": 0.0,
+  "mean_distance_km": Infinity,
+  "median_distance_km": Infinity,
+  "matched_sinkholes": [],
+  "missed_sinkholes": [
+    {
+      "name": "Winter Park Sinkhole",
+      "lat": 28.5983,
+      "lon": -81.3394,
+      "year": 1981,
+      "nearest_prediction_km": 45.146551399389345
+    },
+    {
+      "name": "Seffner Sinkhole (Jeff Bush)",
+      "lat": 28.0167,
+      "lon": -82.2833,
+      "year": 2013,
+      "nearest_prediction_km": 92.09156818052158
+    },
+    {
+      "name": "Land O' Lakes Sinkhole",
+      "lat": 28.2189,
+      "lon": -82.4578,
+      "year": 2017,
+      "nearest_prediction_km": 107.03518826573747
+    },
+    {
+      "name": "Pasco County Sinkhole 2017",
+      "lat": 28.2833,
+      "lon": -82.4667,
+      "year": 2017,
+      "nearest_prediction_km": 108.30277215180931
+    },
+    {
+      "name": "Plant City Sinkhole",
+      "lat": 28.0156,
+      "lon": -82.1194,
+      "year": 2010,
+      "nearest_prediction_km": 76.49243148224598
+    },
+    {
+      "name": "Ocala Sinkhole",
+      "lat": 29.1872,
+      "lon": -82.1401,
+      "year": 2012,
+      "nearest_prediction_km": 133.88463853350387
+    },
+    {
+      "name": "Gainesville Sinkhole",
+      "lat": 29.6517,
+      "lon": -82.325,
+      "year": 2016,
+      "nearest_prediction_km": 187.14408651259495
+    },
+    {
+      "name": "Tampa Sinkhole 2011",
+      "lat": 27.9506,
+      "lon": -82.4572,
+      "year": 2011,
+      "nearest_prediction_km": 110.4106786516226
+    },
+    {
+      "name": "Hernando County Sinkhole",
+      "lat": 28.55,
+      "lon": -82.4667,
+      "year": 2018,
+      "nearest_prediction_km": 114.78498419853715
+    },
+    {
+      "name": "Brooksville Sinkhole",
+      "lat": 28.5553,
+      "lon": -82.3878,
+      "year": 2015,
+      "nearest_prediction_km": 107.79174424534088
+    },
+    {
+      "name": "Marion County 1",
+      "lat": 29.21,
+      "lon": -82.05,
+      "year": 2014,
+      "nearest_prediction_km": 131.30501589325377
+    },
+    {
+      "name": "Citrus County 1",
+      "lat": 28.85,
+      "lon": -82.38,
+      "year": 2016,
+      "nearest_prediction_km": 123.1012537470963
+    },
+    {
+      "name": "Lake County 1",
+      "lat": 28.75,
+      "lon": -81.72,
+      "year": 2015,
+      "nearest_prediction_km": 70.95490283527967
+    },
+    {
+      "name": "Sumter County 1",
+      "lat": 28.67,
+      "lon": -82.08,
+      "year": 2017,
+      "nearest_prediction_km": 87.69003625486106
+    },
+    {
+      "name": "Polk County 1",
+      "lat": 28.04,
+      "lon": -81.95,
+      "year": 2013,
+      "nearest_prediction_km": 59.75615295747721
+    },
+    {
+      "name": "Hillsborough County 1",
+      "lat": 27.97,
+      "lon": -82.35,
+      "year": 2012,
+      "nearest_prediction_km": 99.67727554912337
+    },
+    {
+      "name": "Pinellas County 1",
+      "lat": 27.86,
+      "lon": -82.71,
+      "year": 2014,
+      "nearest_prediction_km": 137.02601928189424
+    },
+    {
+      "name": "Alachua County 1",
+      "lat": 29.65,
+      "lon": -82.4,
+      "year": 2018,
+      "nearest_prediction_km": 190.72928351543
+    },
+    {
+      "name": "Columbia County 1",
+      "lat": 30.18,
+      "lon": -82.65,
+      "year": 2016,
+      "nearest_prediction_km": 245.23248894307014
+    },
+    {
+      "name": "Levy County 1",
+      "lat": 29.28,
+      "lon": -82.78,
+      "year": 2015,
+      "nearest_prediction_km": 183.35410420060387
+    }
+  ]
+}
