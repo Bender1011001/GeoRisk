@@ -1,59 +1,90 @@
 ======================================================================
 GEORISK SINKHOLE DETECTION VALIDATION REPORT
 ======================================================================
-Generated: 2025-12-25T16:10:53.648229
+Generated: 2025-12-25T16:20:47.548416
 Region: Florida
 
 ======================================================================
 SUMMARY METRICS
 ======================================================================
-Known Sinkholes (Ground Truth):  20
-Total Predictions:               3
+Known Sinkholes (Ground Truth):  51
+Total Predictions:               8
 
-True Positives (Matched):        0
-False Positives (Spurious):      3
-False Negatives (Missed):        20
+True Positives (Matched):        1
+False Positives (Spurious):      7
+False Negatives (Missed):        50
 
-PRECISION:  0.0%  (of our predictions, how many are real)
-RECALL:     0.0%  (of real sinkholes, how many did we find)
-F1 SCORE:   0.000  (harmonic mean)
+PRECISION:  12.5%  (of our predictions, how many are real)
+RECALL:     2.0%  (of real sinkholes, how many did we find)
+F1 SCORE:   0.034  (harmonic mean)
 
-Mean Distance to Match:   inf km
-Median Distance to Match: inf km
+Mean Distance to Match:   23.14 km
+Median Distance to Match: 23.14 km
 
 ======================================================================
 INTERPRETATION
 ======================================================================
 [XX] LOW RECALL: Missing majority of known sinkholes
-[!!] LOW PRECISION: High false alarm rate (expected for regional detection)
+[--] MODERATE PRECISION: Some false alarms expected
 
 ======================================================================
 MATCHED SINKHOLES (TRUE POSITIVES)
 ======================================================================
+  [+] Marianna Caverns Area (1800) - Distance: 23.14 km
 
 ======================================================================
 MISSED SINKHOLES (FALSE NEGATIVES)
 ======================================================================
-  [-] Winter Park Sinkhole (1981) - Nearest prediction: 45.1 km away
-  [-] Seffner Sinkhole (Jeff Bush) (2013) - Nearest prediction: 92.1 km away
-  [-] Land O' Lakes Sinkhole (2017) - Nearest prediction: 107.0 km away
-  [-] Pasco County Sinkhole 2017 (2017) - Nearest prediction: 108.3 km away
-  [-] Plant City Sinkhole (2010) - Nearest prediction: 76.5 km away
-  [-] Ocala Sinkhole (2012) - Nearest prediction: 133.9 km away
-  [-] Gainesville Sinkhole (2016) - Nearest prediction: 187.1 km away
-  [-] Tampa Sinkhole 2011 (2011) - Nearest prediction: 110.4 km away
-  [-] Hernando County Sinkhole (2018) - Nearest prediction: 114.8 km away
-  [-] Brooksville Sinkhole (2015) - Nearest prediction: 107.8 km away
-  [-] Marion County 1 (2014) - Nearest prediction: 131.3 km away
-  [-] Citrus County 1 (2016) - Nearest prediction: 123.1 km away
-  [-] Lake County 1 (2015) - Nearest prediction: 71.0 km away
-  [-] Sumter County 1 (2017) - Nearest prediction: 87.7 km away
-  [-] Polk County 1 (2013) - Nearest prediction: 59.8 km away
-  [-] Hillsborough County 1 (2012) - Nearest prediction: 99.7 km away
-  [-] Pinellas County 1 (2014) - Nearest prediction: 137.0 km away
-  [-] Alachua County 1 (2018) - Nearest prediction: 190.7 km away
-  [-] Columbia County 1 (2016) - Nearest prediction: 245.2 km away
-  [-] Levy County 1 (2015) - Nearest prediction: 183.4 km away
+  [-] Winter Park Sinkhole (1981) - Nearest prediction: 47.7 km away
+  [-] Seffner Sinkhole (Jeff Bush) (2013) - Nearest prediction: 94.7 km away
+  [-] Land O' Lakes Sinkhole (2017) - Nearest prediction: 110.3 km away
+  [-] Pasco County Sinkhole 2017 (2017) - Nearest prediction: 111.7 km away
+  [-] Plant City Strawberry Sinkhole (2010) - Nearest prediction: 78.9 km away
+  [-] Ocala Marion Oaks Sinkhole (2012) - Nearest prediction: 39.8 km away
+  [-] Tampa Sinkhole 2011 (2011) - Nearest prediction: 112.9 km away
+  [-] Hernando Beach Sinkhole (2018) - Nearest prediction: 113.0 km away
+  [-] Brooksville Sinkhole (2015) - Nearest prediction: 87.6 km away
+  [-] Lake Jackson Sinkhole Basin (1999) - Nearest prediction: 47.6 km away
+  [-] Paynes Prairie Alachua Sink (1800) - Nearest prediction: 73.1 km away
+  [-] Devil's Millhopper (1800) - Nearest prediction: 92.3 km away
+  [-] Wakulla Springs Cave (1800) - Nearest prediction: 75.2 km away
+  [-] Clermont Lake County (2014) - Nearest prediction: 60.3 km away
+  [-] Leesburg Sinkhole (2013) - Nearest prediction: 35.1 km away
+  [-] Eustis Sinkhole (2016) - Nearest prediction: 28.4 km away
+  [-] Tavares Sinkhole (2015) - Nearest prediction: 33.3 km away
+  [-] Mount Dora Sinkhole (2017) - Nearest prediction: 34.7 km away
+  [-] Lady Lake Sinkhole (2012) - Nearest prediction: 27.2 km away
+  [-] The Villages Sinkhole 1 (2018) - Nearest prediction: 32.6 km away
+  [-] The Villages Sinkhole 2 (2019) - Nearest prediction: 27.9 km away
+  [-] Brandon Sinkhole (2016) - Nearest prediction: 96.9 km away
+  [-] Riverview Sinkhole (2017) - Nearest prediction: 103.1 km away
+  [-] Valrico Sinkhole (2015) - Nearest prediction: 92.3 km away
+  [-] Temple Terrace Sinkhole (2014) - Nearest prediction: 104.6 km away
+  [-] Carrollwood Sinkhole (2018) - Nearest prediction: 114.9 km away
+  [-] New Port Richey Sinkhole (2016) - Nearest prediction: 135.0 km away
+  [-] Spring Hill Sinkhole 1 (2015) - Nearest prediction: 103.5 km away
+  [-] Spring Hill Sinkhole 2 (2017) - Nearest prediction: 107.0 km away
+  [-] Conway Sinkhole (2013) - Nearest prediction: 37.6 km away
+  [-] Pine Hills Sinkhole (2014) - Nearest prediction: 45.7 km away
+  [-] Apopka Sinkhole (2016) - Nearest prediction: 52.7 km away
+  [-] Sanford Sinkhole (2015) - Nearest prediction: 56.5 km away
+  [-] Altamonte Springs Sinkhole (2018) - Nearest prediction: 54.8 km away
+  [-] Gainesville NW Sinkhole (2016) - Nearest prediction: 91.8 km away
+  [-] Gainesville Historical (2010) - Nearest prediction: 83.9 km away
+  [-] Newberry Sinkhole (2017) - Nearest prediction: 103.3 km away
+  [-] High Springs Sinkhole (2014) - Nearest prediction: 115.6 km away
+  [-] Alachua Sinkhole (2015) - Nearest prediction: 101.4 km away
+  [-] Tallahassee Sinkhole (2013) - Nearest prediction: 53.4 km away
+  [-] Lake City Sinkhole (2016) - Nearest prediction: 114.4 km away
+  [-] Live Oak Sinkhole (2015) - Nearest prediction: 80.5 km away
+  [-] Madison Sinkhole (2017) - Nearest prediction: 37.4 km away
+  [-] Homosassa Sinkhole (2014) - Nearest prediction: 88.6 km away
+  [-] Crystal River Sinkhole (2016) - Nearest prediction: 85.7 km away
+  [-] Inverness Sinkhole (2015) - Nearest prediction: 64.6 km away
+  [-] Dunnellon Rainbow Springs (1800) - Nearest prediction: 67.5 km away
+  [-] Sarasota Sinkhole (2018) - Nearest prediction: 149.8 km away
+  [-] Bradenton Sinkhole (2017) - Nearest prediction: 143.0 km away
+  [-] Venice Sinkhole (2016) - Nearest prediction: 158.3 km away
 
 ======================================================================
 VALIDATION METHODOLOGY

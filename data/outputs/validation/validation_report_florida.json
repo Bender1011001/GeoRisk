@@ -1,155 +1,374 @@
 {
-  "total_known_sinkholes": 20,
-  "total_predictions": 3,
-  "true_positives": 0,
-  "false_positives": 3,
-  "false_negatives": 20,
-  "precision": 0.0,
-  "recall": 0.0,
-  "f1_score": 0.0,
-  "mean_distance_km": Infinity,
-  "median_distance_km": Infinity,
-  "matched_sinkholes": [],
+  "total_known_sinkholes": 51,
+  "total_predictions": 8,
+  "true_positives": 1,
+  "false_positives": 7,
+  "false_negatives": 50,
+  "precision": 0.125,
+  "recall": 0.0196078431372549,
+  "f1_score": 0.03389830508474576,
+  "mean_distance_km": 23.139570401228713,
+  "median_distance_km": 23.139570401228713,
+  "matched_sinkholes": [
+    {
+      "name": "Marianna Caverns Area",
+      "lat": 30.7744,
+      "lon": -85.2286,
+      "year": 1800,
+      "distance_km": 23.139570401228713,
+      "matched_prediction": "PRED-2"
+    }
+  ],
   "missed_sinkholes": [
     {
       "name": "Winter Park Sinkhole",
       "lat": 28.5983,
       "lon": -81.3394,
       "year": 1981,
-      "nearest_prediction_km": 45.146551399389345
+      "nearest_prediction_km": 47.724588196850185
     },
     {
       "name": "Seffner Sinkhole (Jeff Bush)",
       "lat": 28.0167,
       "lon": -82.2833,
       "year": 2013,
-      "nearest_prediction_km": 92.09156818052158
+      "nearest_prediction_km": 94.67803381153365
     },
     {
       "name": "Land O' Lakes Sinkhole",
       "lat": 28.2189,
       "lon": -82.4578,
       "year": 2017,
-      "nearest_prediction_km": 107.03518826573747
+      "nearest_prediction_km": 110.30074715947353
     },
     {
       "name": "Pasco County Sinkhole 2017",
       "lat": 28.2833,
       "lon": -82.4667,
       "year": 2017,
-      "nearest_prediction_km": 108.30277215180931
+      "nearest_prediction_km": 111.72413717774022
     },
     {
-      "name": "Plant City Sinkhole",
+      "name": "Plant City Strawberry Sinkhole",
       "lat": 28.0156,
       "lon": -82.1194,
       "year": 2010,
-      "nearest_prediction_km": 76.49243148224598
+      "nearest_prediction_km": 78.9394484951962
     },
     {
-      "name": "Ocala Sinkhole",
+      "name": "Ocala Marion Oaks Sinkhole",
       "lat": 29.1872,
       "lon": -82.1401,
       "year": 2012,
-      "nearest_prediction_km": 133.88463853350387
-    },
-    {
-      "name": "Gainesville Sinkhole",
-      "lat": 29.6517,
-      "lon": -82.325,
-      "year": 2016,
-      "nearest_prediction_km": 187.14408651259495
+      "nearest_prediction_km": 39.82737758020418
     },
     {
       "name": "Tampa Sinkhole 2011",
       "lat": 27.9506,
       "lon": -82.4572,
       "year": 2011,
-      "nearest_prediction_km": 110.4106786516226
+      "nearest_prediction_km": 112.88714165378664
     },
     {
-      "name": "Hernando County Sinkhole",
-      "lat": 28.55,
-      "lon": -82.4667,
+      "name": "Hernando Beach Sinkhole",
+      "lat": 28.4767,
+      "lon": -82.6539,
       "year": 2018,
-      "nearest_prediction_km": 114.78498419853715
+      "nearest_prediction_km": 112.96529569568351
     },
     {
       "name": "Brooksville Sinkhole",
       "lat": 28.5553,
       "lon": -82.3878,
       "year": 2015,
-      "nearest_prediction_km": 107.79174424534088
+      "nearest_prediction_km": 87.62133689923716
     },
     {
-      "name": "Marion County 1",
-      "lat": 29.21,
-      "lon": -82.05,
+      "name": "Lake Jackson Sinkhole Basin",
+      "lat": 30.4789,
+      "lon": -84.3556,
+      "year": 1999,
+      "nearest_prediction_km": 47.63780153311502
+    },
+    {
+      "name": "Paynes Prairie Alachua Sink",
+      "lat": 29.5361,
+      "lon": -82.3083,
+      "year": 1800,
+      "nearest_prediction_km": 73.05354111136417
+    },
+    {
+      "name": "Devil's Millhopper",
+      "lat": 29.7072,
+      "lon": -82.3958,
+      "year": 1800,
+      "nearest_prediction_km": 92.34561942133116
+    },
+    {
+      "name": "Wakulla Springs Cave",
+      "lat": 30.235,
+      "lon": -84.3011,
+      "year": 1800,
+      "nearest_prediction_km": 75.21507943098162
+    },
+    {
+      "name": "Clermont Lake County",
+      "lat": 28.5494,
+      "lon": -81.7729,
       "year": 2014,
-      "nearest_prediction_km": 131.30501589325377
+      "nearest_prediction_km": 60.2882832133981
     },
     {
-      "name": "Citrus County 1",
-      "lat": 28.85,
-      "lon": -82.38,
-      "year": 2016,
-      "nearest_prediction_km": 123.1012537470963
-    },
-    {
-      "name": "Lake County 1",
-      "lat": 28.75,
-      "lon": -81.72,
-      "year": 2015,
-      "nearest_prediction_km": 70.95490283527967
-    },
-    {
-      "name": "Sumter County 1",
-      "lat": 28.67,
-      "lon": -82.08,
-      "year": 2017,
-      "nearest_prediction_km": 87.69003625486106
-    },
-    {
-      "name": "Polk County 1",
-      "lat": 28.04,
-      "lon": -81.95,
+      "name": "Leesburg Sinkhole",
+      "lat": 28.8108,
+      "lon": -81.8776,
       "year": 2013,
-      "nearest_prediction_km": 59.75615295747721
+      "nearest_prediction_km": 35.11775173511774
     },
     {
-      "name": "Hillsborough County 1",
-      "lat": 27.97,
-      "lon": -82.35,
-      "year": 2012,
-      "nearest_prediction_km": 99.67727554912337
-    },
-    {
-      "name": "Pinellas County 1",
-      "lat": 27.86,
-      "lon": -82.71,
-      "year": 2014,
-      "nearest_prediction_km": 137.02601928189424
-    },
-    {
-      "name": "Alachua County 1",
-      "lat": 29.65,
-      "lon": -82.4,
-      "year": 2018,
-      "nearest_prediction_km": 190.72928351543
-    },
-    {
-      "name": "Columbia County 1",
-      "lat": 30.18,
-      "lon": -82.65,
+      "name": "Eustis Sinkhole",
+      "lat": 28.8528,
+      "lon": -81.6853,
       "year": 2016,
-      "nearest_prediction_km": 245.23248894307014
+      "nearest_prediction_km": 28.381919524967042
     },
     {
-      "name": "Levy County 1",
-      "lat": 29.28,
-      "lon": -82.78,
+      "name": "Tavares Sinkhole",
+      "lat": 28.8042,
+      "lon": -81.7256,
       "year": 2015,
-      "nearest_prediction_km": 183.35410420060387
+      "nearest_prediction_km": 33.2917215603229
+    },
+    {
+      "name": "Mount Dora Sinkhole",
+      "lat": 28.8025,
+      "lon": -81.6445,
+      "year": 2017,
+      "nearest_prediction_km": 34.74905551196125
+    },
+    {
+      "name": "Lady Lake Sinkhole",
+      "lat": 28.9175,
+      "lon": -81.9231,
+      "year": 2012,
+      "nearest_prediction_km": 27.182503517800384
+    },
+    {
+      "name": "The Villages Sinkhole 1",
+      "lat": 28.9336,
+      "lon": -82.015,
+      "year": 2018,
+      "nearest_prediction_km": 32.61383710489131
+    },
+    {
+      "name": "The Villages Sinkhole 2",
+      "lat": 28.9508,
+      "lon": -81.9689,
+      "year": 2019,
+      "nearest_prediction_km": 27.86878632924473
+    },
+    {
+      "name": "Brandon Sinkhole",
+      "lat": 27.9378,
+      "lon": -82.2858,
+      "year": 2016,
+      "nearest_prediction_km": 96.90433848327852
+    },
+    {
+      "name": "Riverview Sinkhole",
+      "lat": 27.8661,
+      "lon": -82.3267,
+      "year": 2017,
+      "nearest_prediction_km": 103.13361314224306
+    },
+    {
+      "name": "Valrico Sinkhole",
+      "lat": 27.9372,
+      "lon": -82.2364,
+      "year": 2015,
+      "nearest_prediction_km": 92.25847633492947
+    },
+    {
+      "name": "Temple Terrace Sinkhole",
+      "lat": 28.0342,
+      "lon": -82.3892,
+      "year": 2014,
+      "nearest_prediction_km": 104.60972000969132
+    },
+    {
+      "name": "Carrollwood Sinkhole",
+      "lat": 28.0561,
+      "lon": -82.4978,
+      "year": 2018,
+      "nearest_prediction_km": 114.8583468245015
+    },
+    {
+      "name": "New Port Richey Sinkhole",
+      "lat": 28.2442,
+      "lon": -82.7192,
+      "year": 2016,
+      "nearest_prediction_km": 134.99712339999604
+    },
+    {
+      "name": "Spring Hill Sinkhole 1",
+      "lat": 28.4767,
+      "lon": -82.5275,
+      "year": 2015,
+      "nearest_prediction_km": 103.54860628391859
+    },
+    {
+      "name": "Spring Hill Sinkhole 2",
+      "lat": 28.4489,
+      "lon": -82.5467,
+      "year": 2017,
+      "nearest_prediction_km": 107.02522603459047
+    },
+    {
+      "name": "Conway Sinkhole",
+      "lat": 28.5069,
+      "lon": -81.3325,
+      "year": 2013,
+      "nearest_prediction_km": 37.558323986080204
+    },
+    {
+      "name": "Pine Hills Sinkhole",
+      "lat": 28.5669,
+      "lon": -81.4531,
+      "year": 2014,
+      "nearest_prediction_km": 45.746174294745565
+    },
+    {
+      "name": "Apopka Sinkhole",
+      "lat": 28.6767,
+      "lon": -81.5067,
+      "year": 2016,
+      "nearest_prediction_km": 52.65076833674817
+    },
+    {
+      "name": "Sanford Sinkhole",
+      "lat": 28.8028,
+      "lon": -81.2731,
+      "year": 2015,
+      "nearest_prediction_km": 56.50297194660128
+    },
+    {
+      "name": "Altamonte Springs Sinkhole",
+      "lat": 28.6611,
+      "lon": -81.3656,
+      "year": 2018,
+      "nearest_prediction_km": 54.79317855279246
+    },
+    {
+      "name": "Gainesville NW Sinkhole",
+      "lat": 29.6517,
+      "lon": -82.4501,
+      "year": 2016,
+      "nearest_prediction_km": 91.83712758730277
+    },
+    {
+      "name": "Gainesville Historical",
+      "lat": 29.6439,
+      "lon": -82.3447,
+      "year": 2010,
+      "nearest_prediction_km": 83.85115306656544
+    },
+    {
+      "name": "Newberry Sinkhole",
+      "lat": 29.6464,
+      "lon": -82.6067,
+      "year": 2017,
+      "nearest_prediction_km": 103.32975399164519
+    },
+    {
+      "name": "High Springs Sinkhole",
+      "lat": 29.8283,
+      "lon": -82.5967,
+      "year": 2014,
+      "nearest_prediction_km": 115.56496966758147
+    },
+    {
+      "name": "Alachua Sinkhole",
+      "lat": 29.7514,
+      "lon": -82.4783,
+      "year": 2015,
+      "nearest_prediction_km": 101.42367138126738
+    },
+    {
+      "name": "Tallahassee Sinkhole",
+      "lat": 30.4383,
+      "lon": -84.2808,
+      "year": 2013,
+      "nearest_prediction_km": 53.38776745929523
+    },
+    {
+      "name": "Lake City Sinkhole",
+      "lat": 30.1897,
+      "lon": -82.6394,
+      "year": 2016,
+      "nearest_prediction_km": 114.3801775328234
+    },
+    {
+      "name": "Live Oak Sinkhole",
+      "lat": 30.295,
+      "lon": -82.9842,
+      "year": 2015,
+      "nearest_prediction_km": 80.51452602164079
+    },
+    {
+      "name": "Madison Sinkhole",
+      "lat": 30.4694,
+      "lon": -83.4131,
+      "year": 2017,
+      "nearest_prediction_km": 37.424711031792555
+    },
+    {
+      "name": "Homosassa Sinkhole",
+      "lat": 28.7836,
+      "lon": -82.5756,
+      "year": 2014,
+      "nearest_prediction_km": 88.61338759907984
+    },
+    {
+      "name": "Crystal River Sinkhole",
+      "lat": 28.9028,
+      "lon": -82.5928,
+      "year": 2016,
+      "nearest_prediction_km": 85.7457499177533
+    },
+    {
+      "name": "Inverness Sinkhole",
+      "lat": 28.8356,
+      "lon": -82.3303,
+      "year": 2015,
+      "nearest_prediction_km": 64.55863362720235
+    },
+    {
+      "name": "Dunnellon Rainbow Springs",
+      "lat": 29.1078,
+      "lon": -82.4361,
+      "year": 1800,
+      "nearest_prediction_km": 67.49304298227752
+    },
+    {
+      "name": "Sarasota Sinkhole",
+      "lat": 27.3364,
+      "lon": -82.5306,
+      "year": 2018,
+      "nearest_prediction_km": 149.81629838117394
+    },
+    {
+      "name": "Bradenton Sinkhole",
+      "lat": 27.4989,
+      "lon": -82.5747,
+      "year": 2017,
+      "nearest_prediction_km": 142.9827153939579
+    },
+    {
+      "name": "Venice Sinkhole",
+      "lat": 27.0997,
+      "lon": -82.4543,
+      "year": 2016,
+      "nearest_prediction_km": 158.33606252394688
     }
   ]
 }
